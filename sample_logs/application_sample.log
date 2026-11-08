@@ -1,0 +1,6 @@
+2026-11-08T10:00:00Z INFO application started service=orders
+2026-11-08T10:00:04Z INFO health check passed service=orders
+2026-11-08T10:01:12Z WARNING database connection pool at 80 percent service=orders
+2026-11-08T10:01:45Z ERROR database connection timeout service=orders request_id=req-demo-001
+2026-11-08T10:01:47Z ERROR request failed after database timeout service=orders request_id=req-demo-001
+2026-11-08T10:03:00Z INFO retry succeeded service=orders request_id=req-demo-001
